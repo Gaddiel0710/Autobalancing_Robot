@@ -21,7 +21,7 @@ Consiste en tres componentes principales: la ganancia proporcional (P), la ganan
 - Kp = Ganancia proporcional: es la diferencia entre la posición deseada y la posición medida del robot.
 - Ki = Tiempo integral: es la suma acumulativa de los errores pasados.
 - Kd = Tiempo derivado: es la tasa de cambio actual del error
-- 
+  
 Los valores de Kp, Ti y Td deben ajustarse experimentalmente para obtener un rendimiento
 óptimo del controlador en función de las características específicas del robot y del entorno.
 
