@@ -25,6 +25,13 @@ Kd = Tiempo derivado: es la tasa de cambio actual del error
 Los valores de Kp, Ti y Td deben ajustarse experimentalmente para obtener un rendimiento
 óptimo del controlador en función de las características específicas del robot y del entorno.
 
+## Values ​​used for PID control
+
+- Setpoint = 175.6
+- Proporcional Gain = 500
+- Derivative Gain = 5.0
+- Integral Gain = 460
+
 ## Conexion diagram
 diagrama de conexiones para los motorreductores y giroscopio MPU-60505
 
@@ -41,9 +48,4 @@ que se utilice._
 - Final Prototype
 - [![prototype-2.jpg](https://i.postimg.cc/2ScMYj1G/prototype-2.jpg)](https://postimg.cc/VJtDB8B0)
 
-## Values ​​used for PID control
 
-- Setpoint = 175.6
-- Proporcional Gain = 500
-- Derivative Gain = 5.0
-- Integral Gain = 460
